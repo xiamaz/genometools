@@ -2,6 +2,7 @@
 #define FT_TRIMSTAT_H
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <stdbool.h>
 
 typedef struct GtFtTrimstat GtFtTrimstat;

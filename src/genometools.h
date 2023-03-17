@@ -160,6 +160,15 @@ extern "C" {
 #include "ltr/ltr_orf_annotator_stream_api.h"
 #include "ltr/ltr_refseq_match_stream_api.h"
 
+/* add match module */
+#include "match/diagbandseed.h"
+#include "match/seed-extend.h"
+#include "match/xdrop.h"
+#include "match/ft-polish.h"
+#include "match/initbasepower.h"
+#include "match/seed_extend_parts.h"
+#include "match/dbs_spaced_seeds.h"
+
 #ifndef WITHOUT_CAIRO
 /* the AnnotationSketch module (depends on Cairo) */
 #include "annotationsketch/block_api.h"
